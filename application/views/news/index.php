@@ -9,3 +9,7 @@
         <p><a href="<?php echo $news_item['slug'] ?>">View article</a></p>
 
 <?php endforeach ?>
+
+<form>
+<input type="button" value="Create new items" onclick="window.location.href='http://mykhabarovsk.com/ci/index.php/news/create'" />
+</form>
